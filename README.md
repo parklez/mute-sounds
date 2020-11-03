@@ -11,6 +11,8 @@ Set the path Half-Life in `settings.py`, and optinally path to a backup file. Th
 ```python
 PATH_TO_HL = r"D:\SteamLibrary\steamapps\common\Half-Life"
 PATH_TO_BACKUP = "D:\custom_sounds.zip"
+EXCLUDE_DIRS = ['gungame']
 ```
 ```sh
 python3 "replace_sounds.py"
+```
